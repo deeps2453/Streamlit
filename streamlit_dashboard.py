@@ -7,9 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1wYR2yMxj8YKfu7IqLSsKpdoRnMT-Cjd0
 """
 
-!pip install numpy pandas matplotlib seaborn scipy
-!pip install astroquery astropy lightkurve
-!pip install openpyxl pymc arviz plotly streamlit
+
 
 # Commented out IPython magic to ensure Python compatibility.
 # %pip install astroquery astropy lightkurve
