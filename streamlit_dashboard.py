@@ -1264,7 +1264,7 @@ st.pyplot(fig)
 # if __name__ == '__main__':
 # 	main()
 
-!ls
+#!ls
 
 !nohub streamlit run app.py &
 
@@ -1282,7 +1282,7 @@ public_url
 # ================================================
 
 # 1️⃣ Install dependencies
-!pip install -q streamlit plotly seaborn
+#!pip install -q streamlit plotly seaborn
 
 # 2️⃣ Write dashboard code into a file
 app_code = """
