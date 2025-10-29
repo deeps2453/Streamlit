@@ -1168,7 +1168,7 @@ ngrok.kill()  # closes all active tunnels
 !pip install streamlit pyngrok
 
 # 3. Set your ngrok authtoken (replace with your real token)
-!ngrok authtoken 33uZf2ptpdhoOxjgPBLwh2zqkNG_3AkFM6aqgTYEwhczdFAW3
+ngrok authtoken 33uZf2ptpdhoOxjgPBLwh2zqkNG_3AkFM6aqgTYEwhczdFAW3
 
 # 4. Import and configure ngrok
 from pyngrok import ngrok
