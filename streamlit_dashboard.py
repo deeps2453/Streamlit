@@ -17,15 +17,17 @@ print(sys.executable)
 
 import os
 os.system("pip install astroquery astropy")
-from astroquery.ipac.nexsci.nasa_exoplanet_archive import NasaExoplanetArchive
+#from astroquery.ipac.nexsci.nasa_exoplanet_archive import NasaExoplanetArchive
+import pandas as pd
+df = pd.read_csv("final_dataset_pre_bayesian.csv")
 
-from astroquery.ipac.nexsci.nasa_exoplanet_archive import NasaExoplanetArchive
+#from astroquery.ipac.nexsci.nasa_exoplanet_archive import NasaExoplanetArchive
 import pandas as pd
 
 # -----------------------
 # 1. Import libraries
 # -----------------------
-from astroquery.ipac.nexsci.nasa_exoplanet_archive import NasaExoplanetArchive
+#from astroquery.ipac.nexsci.nasa_exoplanet_archive import NasaExoplanetArchive
 import pandas as pd
 
 # -----------------------
