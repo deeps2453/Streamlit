@@ -42,7 +42,7 @@ cols = (
 # -----------------------
 # 3. Query Kepler planets
 # -----------------------
-kepler = NasaExoplanetArchive.query_criteria(
+#kepler = NasaExoplanetArchive.query_criteria(
     table="pscomppars",
     select=cols,
     where="disc_facility like '%Kepler%'"
