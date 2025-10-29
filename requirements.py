@@ -1,3 +1,4 @@
+astroquery
 streamlit
 pandas
 numpy
