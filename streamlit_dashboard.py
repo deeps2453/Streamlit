@@ -1449,9 +1449,9 @@ with open("streamlit_app.py", "w") as f:
 
 print("✅ Streamlit dashboard saved to streamlit_app.py")
 
-!streamlit run streamlit_app.py --server.port 8501 --server.headless true &
+#!streamlit run streamlit_app.py --server.port 8501 --server.headless true &
 
-!pip install pyngrok -q
+#!pip install pyngrok -q
 from pyngrok import ngrok
 public_url = ngrok.connect(8501)
 public_url
@@ -1567,12 +1567,12 @@ with open("streamlit_app.py", "a") as f:
 
 print("✅ Block 2 complete: Bayesian Models tab added to dashboard")
 
-!streamlit run streamlit_app.py --server.port 8501 --server.headless true &
+#!streamlit run streamlit_app.py --server.port 8501 --server.headless true &
 
 # ================================================
 # BLOCK 3: Add Light Curve Explorer tab
 # ================================================
-!pip install -q lightkurve astroquery astropy
+#!pip install -q lightkurve astroquery astropy
 
 lightcurve_code = """
 # =====================================================
@@ -1643,7 +1643,7 @@ with open("streamlit_app.py", "a") as f:
 
 print("✅ Block 3 complete: Light Curve Explorer tab added.")
 
-!streamlit run streamlit_app.py --server.port 8501 --server.headless true &
+#!streamlit run streamlit_app.py --server.port 8501 --server.headless true &
 
 # streamlit_app_kids_zone.py
 import streamlit as st
