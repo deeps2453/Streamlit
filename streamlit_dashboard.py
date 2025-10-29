@@ -1206,8 +1206,6 @@ merged_stars.to_csv('/content/drive/MyDrive/merged_stars.csv', index=False)
 !pip install streamlit pyngrok
 
 # 3. Set your ngrok authtoken (replace with your real token)
-!ngrok authtoken 33uZf2ptpdhoOxjgPBLwh2zqkNG_3AkFM6aqgTYEwhczdFAW3
-
 # 4. Import and configure ngrok
 from pyngrok import ngrok
 import os
