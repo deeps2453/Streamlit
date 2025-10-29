@@ -15,6 +15,10 @@ Original file is located at
 import sys
 print(sys.executable)
 
+import os
+os.system("pip install astroquery astropy")
+from astroquery.ipac.nexsci.nasa_exoplanet_archive import NasaExoplanetArchive
+
 from astroquery.ipac.nexsci.nasa_exoplanet_archive import NasaExoplanetArchive
 import pandas as pd
 
