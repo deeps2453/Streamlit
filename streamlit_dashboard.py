@@ -479,7 +479,7 @@ print("Planet occurrence classes:", df['planet_occurrence_class'].unique())
 print("\n=== Check Normalized Columns ===")
 print(df[['st_teff_norm', 'st_met_norm', 'st_mass_norm', 'st_rad_norm']].head())
 
-!pip install pymc arviz --quiet
+
 
 import pymc as pm
 import arviz as az
