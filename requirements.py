@@ -6,3 +6,16 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+streamlit
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+plotly
+astroquery
+astropy
+lightkurve
+pymc
+arviz
+openpyxl
