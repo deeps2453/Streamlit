@@ -1266,7 +1266,7 @@ st.pyplot(fig)
 
 #!ls
 
-!nohub streamlit run app.py &
+#!nohub streamlit run app.py &
 
 # Setup a tunnel to the streamlit port 8501
 public_url = ngrok.connect(8501)
