@@ -1158,12 +1158,12 @@ ngrok.kill()  # closes all active tunnels
 
 # Commented out IPython magic to ensure Python compatibility.
 # 1. Clone repo
-!git clone https://github.com/spacey-g/EXOPLANET-_2.git
+
 # %cd EXOPLANET-_2
-!ls
+
 
 # 2. Install dependencies
-!pip install streamlit pyngrok
+
 
 # 3. Set your ngrok authtoken (replace with your real token)
 
@@ -1190,18 +1190,17 @@ merged_stars.to_csv('/content/drive/MyDrive/merged_stars.csv', index=False)
 
 
 # Commented out IPython magic to ensure Python compatibility.
-!git clone https://github.com/spacey-g/EXOPLANET-_2.git
+
 # %cd EXOPLANET-_2
-!ls
+
 
 # Commented out IPython magic to ensure Python compatibility.
 # 1. Clone repo
-!git clone https://github.com/spacey-g/EXOPLANET-_2.git
-# %cd EXOPLANET-_2
-!ls
 
-# 2. Install dependencies
-!pip install streamlit pyngrok
+# %cd EXOPLANET-_2
+
+
+
 
 # 3. Set your ngrok authtoken (replace with your real token)
 # 4. Import and configure ngrok
