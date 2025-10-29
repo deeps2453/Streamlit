@@ -1149,7 +1149,7 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import arviz as az
 
-!pip install pyngrok --quiet
+
 from pyngrok import ngrok
 ngrok.kill()  # stops all active tunnels
 
